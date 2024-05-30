@@ -15,7 +15,7 @@ COMFYUI_TEMP_OUTPUT_DIR = "ComfyUI/temp"
 
 mimetypes.add_type("image/webp", ".webp")
 
-with open("examples/api_workflows/avatar.json", "r") as file:
+with open("examples/api_workflows/avatar_30may.json", "r") as file:
     EXAMPLE_WORKFLOW_JSON = file.read()
 
 
